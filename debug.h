@@ -1,3 +1,4 @@
+#pragma once
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -63,9 +64,3 @@ struct NullStream
     }
 } dbg;
 #endif
-
-int main()
-{
-    vector<int> v = {1, 2, 3, 4, 5};
-    dbg << v << endl;
-}

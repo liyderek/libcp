@@ -1,3 +1,4 @@
+#pragma once
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -20,15 +21,4 @@ template <typename T> ostream &operator<<(ostream &out, const vector<T> &v)
         out << elem << " ";
     }
     return out;
-}
-
-int main()
-{
-    int n;
-    cin >> n;
-
-    vector<int> arr(n);
-    cin >> arr;
-
-    cout << arr << endl;
 }
