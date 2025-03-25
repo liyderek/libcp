@@ -1,3 +1,8 @@
+#pragma once
+#include <bits/stdc++.h>
+
+using namespace std;
+
 struct Segment_Tree {
     struct node {
         int ans = 0, lazy = 0, l, r;
