@@ -1,7 +1,5 @@
 #pragma once
-#include <bits/stdc++.h>
-
-using namespace std;
+#include "macro.h"
 
 // Macro to create a multi-dimensional vector
 #define vec(type, ...) createVec<type>(__VA_ARGS__)

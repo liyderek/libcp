@@ -1,7 +1,5 @@
 #pragma once
-#include <bits/stdc++.h>
-
-using namespace std;
+#include "macro.h"
 
 void openfile(string s)
 {

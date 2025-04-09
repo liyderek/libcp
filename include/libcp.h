@@ -1,7 +1,5 @@
 #pragma once
-#include <bits/stdc++.h>
-
-using namespace std;
+#include "macro.h"
 
 // Overload operator >> for vector<T>
 template <typename T> istream &operator>>(istream &in, vector<T> &v)

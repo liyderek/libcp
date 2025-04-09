@@ -1,7 +1,5 @@
 #pragma once
-#include <bits/stdc++.h>
-
-using namespace std;
+#include "macro.h"
 
 constexpr const char *red = "\033[38;2;243;139;168m";
 constexpr const char *green = "\033[38;2;166;227;161m";
@@ -10,7 +8,7 @@ constexpr const char *pink = "\033[38;2;245;194;231m";
 
 constexpr const char *res = "\x1B[0m";
 
-#ifdef MEN
+#ifdef SKIB
 struct DebugStream
 {
     string color = string(pink);
